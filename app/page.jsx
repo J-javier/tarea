@@ -22,7 +22,7 @@ async function Home() {
      </section>
      <section className="containerTwo">
       {
-        elements.map( (element) => (  
+        elements.map( (element, index) => (  
           <div className="box">
             <div className="photo">
               <img src={`https://picsum.photos/200/15${element.id}`} alt="Photo" height={220} width={320} />
